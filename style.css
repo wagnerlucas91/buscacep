@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+ /* PLANO DE FUNDO  */
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("./acs/download.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-principal {
+
+    opacity: 0.7;
+    color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.titulo {
+    text-align: center;
+}
+
+#cep {
+    margin-top: 10px;
+}
+
+h2{
+    margin-top: 10px;
+}
+
+input {
+    text-align: none;
+    outline: none;
+    font-size: 20px;
+}
